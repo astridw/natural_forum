@@ -1,0 +1,20 @@
+!!!
+%html
+%head
+  %title Nature's Combination For Health
+  = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+  = javascript_include_tag 'application', 'data-turbolinks-track' => true
+  = csrf_meta_tags
+%body
+  %header.main_header.clearfix
+    .wrapper
+      #logo
+        %h1 Nature's Combination For Health
+      #buttons
+        = link_to "New Post", new_post_path
+  .wrapper
+    %p.notice= notice
+    %p.alert= alert
+
+  .wrapper
+    = yield
