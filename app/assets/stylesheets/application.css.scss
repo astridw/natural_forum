@@ -16,9 +16,13 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
+ .title {
+   font-size: 12.5rem;
+ }
  body {
    font-family: 'Lato', sans-serif;
-   background: #EDEFF0;
+  //  background: #EDEFF0;
+  background-image: url(http://static.pexels.com/wp-content/uploads/2014/05/forest-idyllic-nature-230.jpg);
  }
  .wrapper {
    width: 60%;
@@ -42,7 +46,7 @@
        text-transform: uppercase;
        font-weight: 700;
        letter-spacing: -1px;
-       font-size: 1.2rem;
+       font-size: 4rem;
        text-decoration: none;
        color:#397CAC;
      }
@@ -120,7 +124,7 @@
        .buttons {
          width: 25%;
          float: left;
-         font-size: .8em;
+         font-size: 1.2em;
          text-align: right;
          padding-top: 1.5em;
          a {
@@ -135,11 +139,13 @@
        .comment_content {
          margin: 0;
          padding: 0;
+         color: #397CBC;
+         font-size: 1.3em;
        }
        .comment_author {
          color: #397CAC;
          margin-top: .5rem;
-         font-size: 0.6em;
+         font-size: 1em;
          font-weight: 700;
        }
      }
